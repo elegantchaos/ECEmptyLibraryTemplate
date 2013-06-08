@@ -1,0 +1,4 @@
+ECEmptyLibraryTemplate
+======================
+
+Template for ECLibraries
