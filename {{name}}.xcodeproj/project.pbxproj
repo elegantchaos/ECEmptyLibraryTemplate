@@ -18,15 +18,18 @@
 		2283A3F614F52EC0009142F7 /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2283A3CD14F52E93009142F7 /* SenTestingKit.framework */; };
 		2283A3F714F52EC0009142F7 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2283A3BB14F52E93009142F7 /* Cocoa.framework */; };
 		2296287217621E33008D887F /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2283A3BB14F52E93009142F7 /* Cocoa.framework */; };
-		229628F21763442D008D887F /* {{name}}.h in Headers */ = {isa = PBXBuildFile; fileRef = 229628F11763442D008D887F /* {{name}}.h */; };
-		229628F31763442D008D887F /* {{name}}.h in Headers */ = {isa = PBXBuildFile; fileRef = 229628F11763442D008D887F /* {{name}}.h */; };
-		229628F41763442D008D887F /* {{name}}.h in Headers */ = {isa = PBXBuildFile; fileRef = 229628F11763442D008D887F /* {{name}}.h */; };
-		229628F717634465008D887F /* {{name}}Example.h in Headers */ = {isa = PBXBuildFile; fileRef = 229628F517634465008D887F /* {{name}}Example.h */; };
-		229628F817634465008D887F /* {{name}}Example.h in Headers */ = {isa = PBXBuildFile; fileRef = 229628F517634465008D887F /* {{name}}Example.h */; };
-		229628F917634465008D887F /* {{name}}Example.h in Headers */ = {isa = PBXBuildFile; fileRef = 229628F517634465008D887F /* {{name}}Example.h */; };
+		229628F21763442D008D887F /* {{name}}.h in Headers */ = {isa = PBXBuildFile; fileRef = 229628F11763442D008D887F /* {{name}}.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		229628F31763442D008D887F /* {{name}}.h in Headers */ = {isa = PBXBuildFile; fileRef = 229628F11763442D008D887F /* {{name}}.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		229628F41763442D008D887F /* {{name}}.h in Headers */ = {isa = PBXBuildFile; fileRef = 229628F11763442D008D887F /* {{name}}.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		229628F717634465008D887F /* {{name}}Example.h in Headers */ = {isa = PBXBuildFile; fileRef = 229628F517634465008D887F /* {{name}}Example.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		229628F817634465008D887F /* {{name}}Example.h in Headers */ = {isa = PBXBuildFile; fileRef = 229628F517634465008D887F /* {{name}}Example.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		229628F917634465008D887F /* {{name}}Example.h in Headers */ = {isa = PBXBuildFile; fileRef = 229628F517634465008D887F /* {{name}}Example.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		229628FA17634465008D887F /* {{name}}Example.m in Sources */ = {isa = PBXBuildFile; fileRef = 229628F617634465008D887F /* {{name}}Example.m */; };
 		229628FB17634465008D887F /* {{name}}Example.m in Sources */ = {isa = PBXBuildFile; fileRef = 229628F617634465008D887F /* {{name}}Example.m */; };
 		229628FC17634465008D887F /* {{name}}Example.m in Sources */ = {isa = PBXBuildFile; fileRef = 229628F617634465008D887F /* {{name}}Example.m */; };
+		229628FE17634DA6008D887F /* {{name}}IOS.h in Headers */ = {isa = PBXBuildFile; fileRef = 229628FD17634DA6008D887F /* {{name}}IOS.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2296290017634DB0008D887F /* {{name}}Mac.h in Headers */ = {isa = PBXBuildFile; fileRef = 229628FF17634DB0008D887F /* {{name}}Mac.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2296290117634DB0008D887F /* {{name}}Mac.h in Headers */ = {isa = PBXBuildFile; fileRef = 229628FF17634DB0008D887F /* {{name}}Mac.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		22C2DB5614FB98CB005D2E89 /* IOKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 22C2DB5514FB98CB005D2E89 /* IOKit.framework */; };
 		22C2DB5714FB98D7005D2E89 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 22C2DB5114FB98AA005D2E89 /* Security.framework */; };
 		22C2DB5E14FB9ADC005D2E89 /* Test.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 22C2DB5D14FB9ADC005D2E89 /* Test.bundle */; };
@@ -73,7 +76,7 @@
 		22602238141F8A460044644C /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = SDKs/MacOSX10.7.sdk/System/Library/Frameworks/Security.framework; sourceTree = DEVELOPER_DIR; };
 		2260223A141F8A4E0044644C /* libcrypto.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libcrypto.dylib; path = SDKs/MacOSX10.7.sdk/usr/lib/libcrypto.dylib; sourceTree = DEVELOPER_DIR; };
 		2260A2E915DFD7290057C9DA /* {{name}}.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = "{{name}}.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		2260A2FD15DFD7320057C9DA /* ECCore.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = ECCore.framework; path = "{{name}}.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2260A2FD15DFD7320057C9DA /* {{name}}.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "{{name}}.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		2260A2FE15DFD7320057C9DA /* CoreFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreFoundation.framework; path = System/Library/Frameworks/CoreFoundation.framework; sourceTree = SDKROOT; };
 		2260A30C15DFD96D0057C9DA /* IOSDebug.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = IOSDebug.xcconfig; sourceTree = "<group>"; };
 		2260A30D15DFD96D0057C9DA /* IOSRelease.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = IOSRelease.xcconfig; sourceTree = "<group>"; };
@@ -98,7 +101,7 @@
 		2283A3C014F52E93009142F7 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		2283A3CD14F52E93009142F7 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
 		2283A3F514F52EC0009142F7 /* ECCoreMacTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = ECCoreMacTests.octest; path = "{{name}}MacTests.octest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		2296287117621E33008D887F /* lib.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = lib.a; path = "lib{{name}}.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2296287117621E33008D887F /* lib{{name}}.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "lib{{name}}.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		2296287C17621E73008D887F /* MacDebugStatic.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = MacDebugStatic.xcconfig; sourceTree = "<group>"; };
 		2296287D17621E73008D887F /* MacReleaseStatic.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = MacReleaseStatic.xcconfig; sourceTree = "<group>"; };
 		229628EE176343D2008D887F /* {{name}}Debug.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "{{name}}Debug.pch"; sourceTree = "<group>"; };
@@ -107,6 +110,8 @@
 		229628F11763442D008D887F /* {{name}}.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "{{name}}.h"; sourceTree = "<group>"; };
 		229628F517634465008D887F /* {{name}}Example.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "{{name}}Example.h"; sourceTree = "<group>"; };
 		229628F617634465008D887F /* {{name}}Example.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "{{name}}Example.m"; sourceTree = "<group>"; };
+		229628FD17634DA6008D887F /* {{name}}IOS.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "{{name}}IOS.h"; sourceTree = "<group>"; };
+		229628FF17634DB0008D887F /* {{name}}Mac.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "{{name}}Mac.h"; sourceTree = "<group>"; };
 		22BE50B8149662D0007CC214 /* CoreText.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreText.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.1.sdk/System/Library/Frameworks/CoreText.framework; sourceTree = DEVELOPER_DIR; };
 		22BE51331496BD00007CC214 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.1.sdk/System/Library/Frameworks/CoreData.framework; sourceTree = DEVELOPER_DIR; };
 		22BE51351496BD25007CC214 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.1.sdk/System/Library/Frameworks/QuartzCore.framework; sourceTree = DEVELOPER_DIR; };
@@ -189,8 +194,8 @@
 				2283A3F514F52EC0009142F7 /* ECCoreMacTests.octest */,
 				22C2DB7114FB9CC8005D2E89 /* ECCoreIOSTests.octest */,
 				2260A2E915DFD7290057C9DA /* {{name}}.framework */,
-				2260A2FD15DFD7320057C9DA /* ECCore.framework */,
-				2296287117621E33008D887F /* lib.a */,
+				2260A2FD15DFD7320057C9DA /* {{name}}.framework */,
+				2296287117621E33008D887F /* lib{{name}}.a */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -379,6 +384,7 @@
 		22CA557813DA09FF007E89E2 /* iOS */ = {
 			isa = PBXGroup;
 			children = (
+				229628FD17634DA6008D887F /* {{name}}IOS.h */,
 			);
 			path = iOS;
 			sourceTree = "<group>";
@@ -386,6 +392,7 @@
 		22CA557F13DA09FF007E89E2 /* Mac */ = {
 			isa = PBXGroup;
 			children = (
+				229628FF17634DB0008D887F /* {{name}}Mac.h */,
 			);
 			path = Mac;
 			sourceTree = "<group>";
@@ -399,6 +406,7 @@
 			files = (
 				229628F21763442D008D887F /* {{name}}.h in Headers */,
 				229628F717634465008D887F /* {{name}}Example.h in Headers */,
+				2296290017634DB0008D887F /* {{name}}Mac.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -408,6 +416,7 @@
 			files = (
 				229628F41763442D008D887F /* {{name}}.h in Headers */,
 				229628F917634465008D887F /* {{name}}Example.h in Headers */,
+				229628FE17634DA6008D887F /* {{name}}IOS.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -417,6 +426,7 @@
 			files = (
 				229628F31763442D008D887F /* {{name}}.h in Headers */,
 				229628F817634465008D887F /* {{name}}Example.h in Headers */,
+				2296290117634DB0008D887F /* {{name}}Mac.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -457,7 +467,7 @@
 			);
 			name = "{{name}}IOS";
 			productName = "iOS Bundle";
-			productReference = 2260A2FD15DFD7320057C9DA /* ECCore.framework */;
+			productReference = 2260A2FD15DFD7320057C9DA /* {{name}}.framework */;
 			productType = "com.apple.product-type.bundle";
 		};
 		2283A3F414F52EC0009142F7 /* {{name}}MacTests */ = {
@@ -493,7 +503,7 @@
 			);
 			name = "{{name}}MacStatic";
 			productName = ECCoreMacStatic;
-			productReference = 2296287117621E33008D887F /* lib.a */;
+			productReference = 2296287117621E33008D887F /* lib{{name}}.a */;
 			productType = "com.apple.product-type.library.static";
 		};
 		22C2DB7014FB9CC8005D2E89 /* {{name}}IOSTests */ = {
