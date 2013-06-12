@@ -100,7 +100,7 @@
 		2283A3BF14F52E93009142F7 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
 		2283A3C014F52E93009142F7 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		2283A3CD14F52E93009142F7 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
-		2283A3F514F52EC0009142F7 /* ECCoreMacTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = ECCoreMacTests.octest; path = "{{name}}MacTests.octest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2283A3F514F52EC0009142F7 /* {{name}}MacTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "{{name}}MacTests.octest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		2296287117621E33008D887F /* lib{{name}}.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "lib{{name}}.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		2296287C17621E73008D887F /* MacDebugStatic.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = MacDebugStatic.xcconfig; sourceTree = "<group>"; };
 		2296287D17621E73008D887F /* MacReleaseStatic.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = MacReleaseStatic.xcconfig; sourceTree = "<group>"; };
@@ -120,7 +120,7 @@
 		22C2DB5514FB98CB005D2E89 /* IOKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = IOKit.framework; path = System/Library/Frameworks/IOKit.framework; sourceTree = SDKROOT; };
 		22C2DB5D14FB9ADC005D2E89 /* Test.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; name = Test.bundle; path = ../ECLogging/Resources/Test.bundle; sourceTree = SOURCE_ROOT; };
 		22C2DB6414FB9CC8005D2E89 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
-		22C2DB7114FB9CC8005D2E89 /* ECCoreIOSTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = ECCoreIOSTests.octest; path = "{{name}}IOSTests.octest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		22C2DB7114FB9CC8005D2E89 /* {{name}}IOSTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "{{name}}IOSTests.octest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		22C2DB7314FB9CC8005D2E89 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
 		22C2DBC014FB9EE1005D2E89 /* libECLoggingIOS.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libECLoggingIOS.a; path = "../ECLogging/build/Release-iphoneos/libECLoggingIOS.a"; sourceTree = "<group>"; };
 		22C2DBC114FB9EE1005D2E89 /* libECUnitTestsIOS.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libECUnitTestsIOS.a; path = "../ECUnitTests/build/Release-iphoneos/libECUnitTestsIOS.a"; sourceTree = "<group>"; };
@@ -191,8 +191,8 @@
 		034768DFFF38A50411DB9C8B /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				2283A3F514F52EC0009142F7 /* ECCoreMacTests.octest */,
-				22C2DB7114FB9CC8005D2E89 /* ECCoreIOSTests.octest */,
+				2283A3F514F52EC0009142F7 /* {{name}}MacTests.octest */,
+				22C2DB7114FB9CC8005D2E89 /* {{name}}IOSTests.octest */,
 				2260A2E915DFD7290057C9DA /* {{name}}.framework */,
 				2260A2FD15DFD7320057C9DA /* {{name}}.framework */,
 				2296287117621E33008D887F /* lib{{name}}.a */,
@@ -486,7 +486,7 @@
 			);
 			name = "{{name}}MacTests";
 			productName = libECCoreMacTests;
-			productReference = 2283A3F514F52EC0009142F7 /* ECCoreMacTests.octest */;
+			productReference = 2283A3F514F52EC0009142F7 /* {{name}}MacTests.octest */;
 			productType = "com.apple.product-type.bundle";
 		};
 		2296287017621E33008D887F /* {{name}}MacStatic */ = {
@@ -522,7 +522,7 @@
 			);
 			name = "{{name}}IOSTests";
 			productName = ECCoreIOSTests;
-			productReference = 22C2DB7114FB9CC8005D2E89 /* ECCoreIOSTests.octest */;
+			productReference = 22C2DB7114FB9CC8005D2E89 /* {{name}}IOSTests.octest */;
 			productType = "com.apple.product-type.bundle";
 		};
 /* End PBXNativeTarget section */
